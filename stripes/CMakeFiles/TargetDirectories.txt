@@ -1,0 +1,1 @@
+/home/rrc/Desktop/opencv_projects/Stripes/CMakeFiles/Stripes.dir

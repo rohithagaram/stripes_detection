@@ -1,0 +1,41 @@
+***************************************
+OpenCV, CMake, C++
+***************************************
+http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
+
+
+***************************************
+Environment
+***************************************
+Distributor ID:	Ubuntu 
+Description:	Ubuntu 14.04.5 LTS 
+Release:	14.04 
+Codename:	trusty 
+
+Python 2.7.6 (default, Oct 26 2016, 20:30:19) 
+[GCC 4.8.4] on linux2 
+
+>>> cv2.__version__
+'3.2.0'
+
+cmake version 2.8.12.2
+
+
+***************************************
+Usage
+***************************************
+Assuming your directory with code is 
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ 
+
+Then, or the 1st RUN, do
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ cmake .
+
+Then, on every other RUN, do
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ make
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ ./Stripes /home/rrc/Desktop/Lara.mp4 
+			(assuming "Lara.mp4" is a video INPUT located in path="/home/rrc/Desktop/")
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ ./Stripes /home/rrc/Desktop/Lara.mp4 2
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ ./Stripes /home/rrc/Desktop/Nalco.mp4
+rrc@rrc-N80Vb:~/Desktop/opencv_projects/Stripes$ ./Stripes /home/rrc/Desktop/Nalco.mp4 2 
+
+
