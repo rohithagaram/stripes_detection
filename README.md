@@ -1,0 +1,1 @@
+# stripes_detection
